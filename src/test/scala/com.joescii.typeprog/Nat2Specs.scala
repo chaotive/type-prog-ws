@@ -1,5 +1,7 @@
 package com.joescii.typeprog
 
+import com.joescii.typeprog.Nat.*
+
 object Nat2Specs {
   type Nat1 = NatN[Nat0]
   type Nat2 = NatN[Nat1]
