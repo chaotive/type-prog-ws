@@ -8,5 +8,5 @@ object Nat3Specs {
   type Nat2 = NatN[Nat1]
   type Nat3 = NatN[Nat2]
   
-  implicitly[Nat2 * Nat2 * Nat2 * Nat2 * Nat2 * Nat2 * Nat2 * Nat2 * Nat2 * Nat2 * Nat2 * Nat2 * Nat2 * Nat2 * Nat2 * Nat2 * Nat2 * Nat2 * Nat2 * Nat2 * Nat2 =:= Nat3]
+  implicitly[Nat2 * Nat2 * Nat2 * Nat2 * Nat2 * Nat2 * Nat2 * Nat2 * Nat2 * Nat2 * Nat2 =:= Nat3]
 }
